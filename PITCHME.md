@@ -6,7 +6,7 @@
 
 #### The beginning
 
-1980s : Researches in Ericsson's Computer Science Laboratory
+1985-1986 : Researches in Ericsson's Computer Science Laboratory
 
 *LISP, ADA, ML, SmallTalk, Prolog, Parlog...*
 
@@ -26,10 +26,9 @@
 #VSLIDE
 
 #### Erlang's birth
-- 1980s : Researches in Ericsson's Computer Science Laboratory
 - 1986 : NO Existing language suits Telecom constraints -> Need to create a new one
 - 1987 : Erlang is prototyped by Joe Armstong, Robert Virding and Mike Williams
-- 1987 : Internal project based on Erlang -> First users and rapid changes
+- 1987 : Internal project based on Erlang -> First users (team of 3) and rapid changes made based on their needs
 - 1989 : Project done -> average increase in productivity factor of 8
 
 #VSLIDE
