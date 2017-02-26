@@ -6,6 +6,8 @@
 
 #### The beginning
 
+*Stockhom, Sweden*
+
 1985-1986 : Researches in Ericsson's Computer Science Laboratory
 
 *LISP, ADA, ML, SmallTalk, Prolog, Parlog...*
@@ -35,8 +37,8 @@
 
 #### The growth
 - 1995 : AXE-N (Large Project) collapsed -> new AXD project rewritten in Erlang -> OTP
-- ->1997 : Expansion -> Performance, Community, Distributed, Projects, BEAM VM, Functional
-- 1998 : ADX Project announced, Open-source Erlang following Ericsson's ban -> Mnesia storage, High-Performance, more FP
+- ->1997 : Expansion -> Performance, Community, Distributed, Projects, BEAM VM, Mnesia storage, High-Performance, more FP
+- 1998 : AXD301 Project announced, Open-source Erlang following Ericsson's ban
 - Today : Amazon SimpleDB, Ejabberd, RabbitMQ, WhatsApp
 
 
