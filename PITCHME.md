@@ -5,6 +5,27 @@
 #VSLIDE
 
 #### The beginning
+
+1980s : Researches in Ericsson's Computer Science Laboratory
+
+*LISP, ADA, ML, SmallTalk, Prolog, Parlog...*
+
+#VSLIDE
+
+#### Constraints
+
+- Handling a very large number of concurrent activities
+- High Availability
+- Systems distributed over several computers
+- Very large software systems
+- Continuous operation over several years
+- Software maintenance without stopping the system
+- Stringent quality and reliability
+- Fault tolerance
+
+#VSLIDE
+
+#### Erlang's birth
 - 1980s : Researches in Ericsson's Computer Science Laboratory
 - 1986 : NO Existing language suits Telecom constraints -> Need to create a new one
 - 1987 : Erlang is prototyped by Joe Armstong, Robert Virding and Mike Williams
@@ -19,15 +40,4 @@
 - 1998 : ADX Project announced, Open-source Erlang following Ericsson's ban -> Mnesia storage, High-Performance, more FP
 - Today : Amazon SimpleDB, Ejabberd, RabbitMQ, WhatsApp
 
-#VSLIDE
 
-#### Constraints
-
-- Handling a very large number of concurrent activities
-- High Availability
-- Systems distributed over several computers
-- Very large software systems
-- Continuous operation over several years
-- Software maintenance without stopping the system
-- Stringent quality and reliability
-- Fault tolerance
