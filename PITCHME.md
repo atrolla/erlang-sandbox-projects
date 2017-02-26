@@ -6,7 +6,7 @@
 
 #### The beginning
 
-*Stockhom, Sweden*
+*Stockholm, Sweden*
 
 1985-1986 : Researches in Ericsson's Computer Science Laboratory
 
