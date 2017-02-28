@@ -1,5 +1,12 @@
 #HSLIDE
 
+##Erlang : Reactive Microservices since 1987
+
+Yvan VU @JeSuisSocial
+Arnauld LOYER @Aloyer
+
+#HSLIDE
+
 ## A BRIEF HISTORY
 
 #VSLIDE
@@ -41,4 +48,78 @@
 - 1998 : AXD301 Project announced, Open-source Erlang following Ericsson's ban
 - Today : Amazon SimpleDB, Ejabberd, RabbitMQ, WhatsApp
 
+#HSLIDE
 
+## BASIC COMMANDS
+
+#VSLIDE
+
+#### TYPES (OR NOT)
+
+#VSLIDE
+
+#### REPL, SHELL & FILE
+
+#VSLIDE
+
+#### PATTERN MATCHING
+
+```erlang
+functionName(X) ->
+    case X of %% example using case of
+        {tuple} -> yo;
+        [Head|Tail] -> Tail;
+        42 -> "That's the meaning of life.";
+        true -> false;
+        _ -> 0 %% when nothing matches
+    end.
+```
+
+#VSLIDE
+
+#### MESSAGE PASSING
+
+```erlang
+ProcessPid = spawn(?MODULE, exportedFunction, [Arg1,Arg2]).
+
+exportedFunction(Arg1, Arg2) ->
+    receive
+        stop -> ok;
+        {From, "Hello", Ref} -> From ! {self(),"Hello to you too !",Ref}
+    end.
+    
+flush() -> %% flush all messages from queue
+    receive
+        _ -> flush() %% message is ignored by loopping
+    after
+        0 -> true %% when queue is empty, time-out after 0s to get out of the loop
+    end.
+```
+
+#VSLIDE
+
+#### REBAR3 & EUNIT
+
+```erlang
+-include_lib("eunit/include/eunit.hrl").
+
+function_must_ends_with_test() ->
+    ?assert(true). % self-explanatory
+    ?assertEqual(expected, actual).
+```
+
+#HSLIDE
+
+## PANDEMIC GAMEBOARD
+
+#VSLIDE
+
+![Image-Relative](https://github.com/Arnauld/jam201609/raw/master/doc/pandemic-game-board.png)
+
+#VSLIDE
+
+![Image-Relative](https://github.com/Arnauld/pandemic-erlang-hands-on/raw/master/doc/webfront.png)
+
+#HSLIDE
+
+## TIME TO CODE !
