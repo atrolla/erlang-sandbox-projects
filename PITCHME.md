@@ -150,8 +150,10 @@ function_must_ends_with_test() ->
 
 EPMD port : 4369 & arbitrary ports range (ex. 16090-16199)
 ```shell
-> erl -name mynodenade@127.0.0.1 -kernel inet_dist_listen_min 16090 
--kernel inet_dist_listen_max 16199 -setcookie passw0rd
+> erl -name mynodenade@127.0.0.1 \
+-kernel inet_dist_listen_min 16090 \ 
+-kernel inet_dist_listen_max 16199 \
+-setcookie passw0rd
 ```
 ```erlang
 net_kernel:connect_node('othernodename@192.168.0.1').
