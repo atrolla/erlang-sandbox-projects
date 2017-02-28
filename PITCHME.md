@@ -3,6 +3,7 @@
 ##Erlang : Reactive Microservices since 1987
 
 Yvan VU @JeSuisSocial
+
 Arnauld LOYER @Aloyer
 
 #HSLIDE
@@ -55,6 +56,14 @@ Arnauld LOYER @Aloyer
 #VSLIDE
 
 #### TYPES (OR NOT)
+
+- Variables
+- Numbers
+- List
+- Atom
+- String
+- Map
+- Record
 
 #VSLIDE
 
@@ -119,6 +128,25 @@ function_must_ends_with_test() ->
 #VSLIDE
 
 ![Image-Relative](https://github.com/Arnauld/pandemic-erlang-hands-on/raw/master/doc/webfront.png)
+
+#HSLIDE
+
+## BEFORE CODING
+
+#VSLIDE
+
+#### INSTALL ERLANG & REBAR
+*Then launch an erl shell*
+
+#VSLIDE
+
+#### CLONE HANDS-ON REPO
+*And build it*
+
+#VSLIDE
+
+#### CONNECT TO THE OTHER NODES
+*may need FIREWALLS configuration*
 
 #HSLIDE
 
