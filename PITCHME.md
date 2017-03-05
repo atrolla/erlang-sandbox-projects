@@ -55,19 +55,20 @@ Arnauld LOYER @aloyer
 
 #VSLIDE
 
+#### REPL, SHELL & FILE
+Module & Module attributes
+
+#VSLIDE
+
 #### TYPES (OR NOT)
 
 - Variables
 - Numbers
 - List
 - Atom
-- String
 - Map
 - Record
-
-#VSLIDE
-
-#### REPL, SHELL & FILE
+- Macro (Constants here)
 
 #VSLIDE
 
@@ -127,6 +128,13 @@ function_must_ends_with_test() ->
 
 #VSLIDE
 
+##Simple Rules for start
+- a City starts with no infection
+- when a city is infected, the infection level for that disease increase by 1
+- UNLESS the infection level for that disease is already at 3 : the disease outbreaks
+
+#VSLIDE
+
 ![Image-Relative](https://github.com/Arnauld/pandemic-erlang-hands-on/raw/master/doc/webfront.png)
 
 #HSLIDE
@@ -162,3 +170,19 @@ net_kernel:connect_node('othernodename@192.168.0.1').
 #HSLIDE
 
 ## TIME TO CODE !
+
+#VSLIDE
+
+## City
+City has a color and a list of neighbours, protocol is now : 
+- {infected, CityName, NewDiseaseLevel}
+- {outbreak, CityName, Neighbours}
+
+City can initiate its Disease Color at a certain level.
+
+#VSLIDE
+
+## City is now a process !
+- infect is called on {infect, From, DiseaseColor}
+- returns InfectionsLevels map on {infections_level, From} :
+    {ok, InfectionsLevels, CityName, CityColor}
