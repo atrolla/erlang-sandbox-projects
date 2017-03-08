@@ -30,17 +30,13 @@ Yvan VU @JeSuisSocial
 
 #VSLIDE
 
-#### Erlang's birth
-- 1986 : NO Existing language suits Telecom constraints -> Need to create a new one
-- 1987 : Erlang is prototyped by Joe Armstong, Robert Virding and Mike Williams
-- 1987 : Internal project based on Erlang -> First users (team of 3) and rapid changes made based on their needs
-- 1989 : Project done -> average increase in productivity factor of 8
+#### 1987 : Erlang's birth
+by Joe Armstong, Robert Virding and Mike Williams
 
 #VSLIDE
 
-#### The growth
+#### Major facts
 - 1995 : AXE-N (Large Project) collapsed -> new AXD project rewritten in Erlang -> OTP
-- ->1997 : Expansion -> Performance, Community, Distributed, Projects, BEAM VM, Mnesia storage, High-Performance, more FP
 - 1998 : AXD301 Project announced, Open-source Erlang following Ericsson's ban
 - Today : Amazon SimpleDB, Ejabberd, RabbitMQ, WhatsApp
 
