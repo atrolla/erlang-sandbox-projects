@@ -3,9 +3,9 @@
   box-shadow: none;
 }
 
-p{
-    font-size: 0.7em !important;
+.reveal p{
+    font-size: 0.7em;
 }
-li{
-    font-size: 0.8em !important;
+.reveal li{
+    font-size: 0.8em;
 }
