@@ -2,7 +2,11 @@
 
 ##Erlang
 
-######Yvan VU @JeSuisSocial
+<br>
+<br>
+<br>
+<span style="font-style: italic;color: green;">Yvan VU @JeSuisSocial</span>
+
 
 #HSLIDE
 
@@ -47,7 +51,8 @@ by Joe Armstong, Robert Virding and Mike Williams
 
 #HSLIDE
 
-#### Pandemic (Intro)
+#### Pandemic boardgame 
+######*(simplified rules)*
 
 - a City has a name and neighbours
 
@@ -55,7 +60,7 @@ by Joe Armstong, Robert Virding and Mike Williams
 
 #### Infect
 
-- increases its disease level by 1
+- increases a city disease level by 1
 - if the disease level is already at 3, an outbreak occurs
 
 ![Infection](assets/pandemic/infection.jpg)
