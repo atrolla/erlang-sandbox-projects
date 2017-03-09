@@ -1,4 +1,4 @@
-#HSLIDE?image=http://www.arolla.fr/wp-content/uploads/2016/12/EVENEMENT_AROLLA.jpg
+#HSLIDE?image=assets/fond.jpg
 
 ##Erlang
 
