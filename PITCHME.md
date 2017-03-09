@@ -12,15 +12,10 @@ Yvan VU @JeSuisSocial
 
 #VSLIDE
 
-#### The beginning
-
-*Stockholm, Sweden*
-
-1985-1986 : Researches in Ericsson's Computer Science Laboratory
-
-*LISP, ADA, ML, SmallTalk, Prolog, Parlog...*
-
 #VSLIDE
+
+#### 1987 : Erlang's birth
+by Joe Armstong, Robert Virding and Mike Williams
 
 #### Constraints
 
@@ -32,14 +27,9 @@ Yvan VU @JeSuisSocial
 
 #VSLIDE
 
-#### 1987 : Erlang's birth
-by Joe Armstong, Robert Virding and Mike Williams
-
-#VSLIDE
-
 #### Major facts
-- 1995 : AXE-N (Large Project) collapsed -> new AXD project rewritten in Erlang -> OTP
-- 1998 : AXD301 Project announced, Open-source Erlang following Ericsson's ban
+- 1995 : OTP
+- 1998 : Open-source following Ericsson's ban
 - Today : Amazon SimpleDB, Ejabberd, RabbitMQ, WhatsApp
 
 #HSLIDE
