@@ -2,8 +2,6 @@
 
 ##Erlang
 
-
-
 Yvan VU @JeSuisSocial
 
 #HSLIDE
@@ -12,10 +10,10 @@ Yvan VU @JeSuisSocial
 
 #VSLIDE
 
-#VSLIDE
-
 #### 1987 : Erlang's birth
 by Joe Armstong, Robert Virding and Mike Williams
+
+#VSLIDE
 
 #### Constraints
 
