@@ -1,6 +1,8 @@
-#HSLIDE
+#HSLIDE?image=http://www.arolla.fr/wp-content/uploads/2016/12/EVENEMENT_AROLLA.jpg
 
-##Erlang : Reactive Microservices since 1987
+##Erlang
+
+
 
 Yvan VU @JeSuisSocial
 
