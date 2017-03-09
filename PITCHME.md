@@ -32,33 +32,18 @@ by Joe Armstong, Robert Virding and Mike Williams
 
 #HSLIDE
 
-## REPL, SHELL & FILE
-
-Module & Module attributes
-
-#HSLIDE
-
-## FUNCTIONS & TYPES
+## DEMO
 
 #VSLIDE
 
-#### Function, Number, Atom 
+- REPL
+- Module & Module attributes
+- Function
+- Type
 
 #VSLIDE
-
-#### Tuple, String, List
-
-#VSLIDE
-
-#### Maps 
-
-#HSLIDE
 
 ## PATTERN MATCHING
-
-#HSLIDE
-
-## DEMO
 
 #HSLIDE
 
