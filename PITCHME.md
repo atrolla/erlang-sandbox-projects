@@ -47,6 +47,23 @@ by Joe Armstong, Robert Virding and Mike Williams
 
 #HSLIDE
 
+#### Pandemic (Intro)
+
+- a City has a name and neighbours
+- Infect a City increase its disease level by 1
+- if the disease level is already at 3, an outbreak occurs
+
+![Infection](assets/pandemic/infection.jpg)
+
+#VSLIDE
+
+#### Outbreak 
+infect each neighbours in a chain without infecting the same city twice
+
+![Outbreak](assets/pandemic/outbreak.jpg)
+
+#HSLIDE
+
 ## MESSAGES
 
 #HSLIDE
