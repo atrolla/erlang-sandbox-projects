@@ -4,8 +4,7 @@
 
 <br>
 <br>
-<br>
-<span style="font-style: italic;color: green;">Yvan VU @JeSuisSocial</span>
+<span style="font-size:1.4em;font-style: italic;color: green;">Yvan VU @JeSuisSocial</span>
 
 
 #HSLIDE
