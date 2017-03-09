@@ -50,7 +50,12 @@ by Joe Armstong, Robert Virding and Mike Williams
 #### Pandemic (Intro)
 
 - a City has a name and neighbours
-- Infect a City increase its disease level by 1
+
+#VSLIDE
+
+#### Infect
+
+- increases its disease level by 1
 - if the disease level is already at 3, an outbreak occurs
 
 ![Infection](assets/pandemic/infection.jpg)
@@ -62,9 +67,18 @@ infect each neighbours in a chain without infecting the same city twice
 
 ![Outbreak](assets/pandemic/outbreak.jpg)
 
+#VSLIDE
+
+#### Functions signatures
+
+- City = {*CityName*, *[Neighbours]*, *Infections*}
+- infect = {ok, *InfectedCity*}
+- outbreak = {outbreak, *[Neighbours]*}
+
+
 #HSLIDE
 
-## MESSAGES
+## PROCESSES & MESSAGES
 
 #HSLIDE
 
